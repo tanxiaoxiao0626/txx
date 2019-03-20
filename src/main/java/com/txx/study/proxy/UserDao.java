@@ -1,11 +1,12 @@
-package com.jd.epi.pop.bill.CglibProxy;
+package com.txx.study.proxy;
 
 /**
  * @Auther: tanxiaoxiao
- * @Date: 2019/3/18 21:35
+ * @Date: 2019/3/17 21:44
  * @Description:
  */
-public class UserDao {
+public class UserDao implements IUserDao {
+    @Override
     public void save() {
         System.out.println("----已经保存数据!----");
     }

@@ -1,5 +1,6 @@
 package com.txx.study.proxy.cglibProxy;
 
+import com.txx.study.proxy.UserDao;
 import org.junit.Test;
 
 /**

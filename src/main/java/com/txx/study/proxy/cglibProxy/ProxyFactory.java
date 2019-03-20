@@ -1,4 +1,4 @@
-package com.jd.epi.pop.bill.CglibProxy;
+package com.txx.study.proxy.cglibProxy;
 
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;

@@ -1,6 +1,6 @@
 package com.txx.study.others;
 
-import org.springframework.test.annotation.SystemProfileValueSource;
+import java.lang.reflect.Field;
 
 /**
  * @Auther: tanxiaoxiao
@@ -18,6 +18,9 @@ public class Swap {
         System.out.println("before:a="+a+",b="+b);
         swap(a,b);
         System.out.println("after:a="+a+",b="+b);
+        trueSwap(a,b);
+        System.out.println("afterTrueSwap:a="+a+",b="+b);
+
 
         String c="1",d="2";
         System.out.println("before:c="+c+",d="+d);
@@ -45,5 +48,27 @@ public class Swap {
         String temp = i1;
         i1 = i2;
         i2=temp;
+    }
+
+    /**
+     *
+     * 功能描述: 
+     *
+     * @param:
+     * @return: 
+     * @auther: tanxiaoxiao
+     * @date: 2019/3/24 下午1:12
+     */
+    public static  void trueSwap(Integer i1,Integer i2) {
+        try {
+            //返回一个 Field 对象，该对象反映此 Class 对象所表示的类或接口的指定已声明字段（包括私有成员）。
+            Field f = Integer.class.getDeclaredField("value");
+            f.setAccessible(true);
+            Integer temp = new Integer(i1.intValue());
+            f.set(i1,i2.intValue());
+            f.set(i2,temp);
+        } catch (Exception e) {
+
+        }
     }
 }

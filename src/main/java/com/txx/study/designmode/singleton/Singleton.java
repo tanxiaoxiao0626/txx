@@ -8,7 +8,7 @@ package com.txx.study.designmode.singleton;
 public class Singleton {
     private static Singleton instance=null;
     private Singleton(){
-
+        System.out.println("构造函数");
     }
     public static Singleton getInstance(){
         if(instance==null){

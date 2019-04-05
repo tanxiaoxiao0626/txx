@@ -1,6 +1,6 @@
-package com.txx.study.proxy.staticProxy;
+package com.txx.study.designmode.proxy.staticProxy;
 
-import com.txx.study.proxy.UserDao;
+import com.txx.study.designmode.proxy.UserDao;
 
 /**
  * @Auther: tanxiaoxiao

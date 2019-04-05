@@ -1,8 +1,8 @@
-package com.txx.study.proxy;
+package com.txx.study.designmode.proxy;
 
 /**
  * @Auther: tanxiaoxiao
- * @Date: 2019/3/17 21:43
+ * @Date: 2019/4/5 14:39
  * @Description:
  */
 public interface IUserDao {

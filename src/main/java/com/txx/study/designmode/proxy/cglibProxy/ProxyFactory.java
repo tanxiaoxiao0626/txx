@@ -1,4 +1,4 @@
-package com.txx.study.proxy.cglibProxy;
+package com.txx.study.designmode.proxy.cglibProxy;
 
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;

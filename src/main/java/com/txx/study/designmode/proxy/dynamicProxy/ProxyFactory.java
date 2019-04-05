@@ -1,4 +1,4 @@
-package com.txx.study.proxy.dynamicProxy;
+package com.txx.study.designmode.proxy.dynamicProxy;
 
 import net.sf.cglib.proxy.InvocationHandler;
 import net.sf.cglib.proxy.Proxy;

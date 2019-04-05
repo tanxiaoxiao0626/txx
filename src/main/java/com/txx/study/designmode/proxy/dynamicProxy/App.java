@@ -1,9 +1,9 @@
-package com.txx.study.proxy.dynamicProxy;
+package com.txx.study.designmode.proxy.dynamicProxy;
 
 
 
-import com.txx.study.proxy.IUserDao;
-import com.txx.study.proxy.UserDao;
+import com.txx.study.designmode.proxy.IUserDao;
+import com.txx.study.designmode.proxy.UserDao;
 
 /**
  * @Auther: tanxiaoxiao

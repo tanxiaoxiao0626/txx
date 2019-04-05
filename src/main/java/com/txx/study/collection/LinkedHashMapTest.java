@@ -7,7 +7,7 @@ import java.util.Map;
 /**
  * @Auther: tanxiaoxiao
  * @Date: 2019/3/2 21:43
- * @Description:
+ * @Description: 支持按存入/读取顺序进行排序，底层基于
  */
 public class LinkedHashMapTest {
     public static void main(String[] args) {

@@ -3,7 +3,7 @@ package com.txx.study.sort;
 /**
  * @Auther: tanxiaoxiao
  * @Date: 2019/3/7 11:46
- * @Description:
+ * @Description: 冒泡排序 从第一个数开始遍历，依次与下一个数比较，若下一个数比他大/小，则调换两个数的位置  直到所有的数依次遍历一遍
  */
 public class BubbleSort {
     public static void main(String [] args){

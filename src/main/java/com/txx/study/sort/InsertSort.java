@@ -3,7 +3,7 @@ package com.txx.study.sort;
 /**
  * @Auther: tanxiaoxiao
  * @Date: 2019/3/8 10:43
- * @Description:
+ * @Description:插入排序 遍历数组，从第二个数开始，嵌套循环这个数之前的数，若比前一个数大/小，则进行位置调换
  */
 public class InsertSort {
 

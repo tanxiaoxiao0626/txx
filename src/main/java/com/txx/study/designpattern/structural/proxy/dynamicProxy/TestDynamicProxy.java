@@ -8,7 +8,10 @@ import com.txx.study.designpattern.structural.proxy.UserDao;
 /**
  * @Auther: tanxiaoxiao
  * @Date: 2019/3/18 20:55
- * @Description:
+ * @Description:结构型模式之代理模式-动态代理
+ *
+ *  *  创建动态代理对象
+ *  *  动态代理不需要实现接口,但是需要指定接口类型，目标对象一定要实现接口,否则不能用动态代理
  */
 public class TestDynamicProxy {
     public static void main(String[] args) {

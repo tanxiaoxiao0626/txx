@@ -6,7 +6,7 @@ import org.junit.Test;
 /**
  * @Auther: tanxiaoxiao
  * @Date: 2019/3/18 21:37
- * @Description:
+ * @Description:结构型模式之代理模式-cglib代理
  */
 public class TestCglibProxy {
     @Test

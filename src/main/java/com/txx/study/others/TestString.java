@@ -26,6 +26,11 @@ public class TestString {
         System.out.println(s3 == s4);//false
         System.out.println(s3 == s5);//true
 
+        String s6="aa";
+        String s7=s6.intern();
+        System.out.print(s6==s7);// true intern()方法会首先从常量池中查找是否存在该常量值，如果常量池中不存在则现在常量池中创建，如果已经存在则直接返回。
+
+
     }
 
 }

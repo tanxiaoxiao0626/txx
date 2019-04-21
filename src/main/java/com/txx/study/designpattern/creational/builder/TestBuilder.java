@@ -12,7 +12,7 @@ public class TestBuilder {
         Director director = new Director();
         BaoZi baoZi = director.concreteBuilder(new ConcreteBuilder());
         System.out.println(baoZi.toString());
-        BaoZi baoZi1 = director.concreteBuilder(new Concrete1Builder());
+        BaoZi baoZi1 = director.concreteBuilder(new ConcreteBuilder1());
         System.out.println(baoZi1.toString());
     }
 }

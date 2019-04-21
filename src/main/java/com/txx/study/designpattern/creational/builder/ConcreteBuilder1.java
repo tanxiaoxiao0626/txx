@@ -5,11 +5,11 @@ package com.txx.study.designpattern.creational.builder;
  * @Date: 2019/4/5 19:26
  * @Description:具体的建造方法1
  */
-public class Concrete1Builder implements Builder {
+public class ConcreteBuilder1 implements Builder {
 
     private BaoZi baoZi;
 
-    public Concrete1Builder(){
+    public ConcreteBuilder1(){
         baoZi = new BaoZi();
     }
 

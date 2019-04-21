@@ -15,7 +15,7 @@ public interface Builder {
      * @auther: tanxiaoxiao
      * @date: 2019/4/5 下午4:17
      */
-    public void huoMian();
+     void huoMian();
 
     /**
      *
@@ -26,7 +26,7 @@ public interface Builder {
      * @auther: tanxiaoxiao
      * @date: 2019/4/5 下午4:21
      */
-    public void faJiao();
+     void faJiao();
 
     /**
      *
@@ -37,5 +37,5 @@ public interface Builder {
      * @auther: tanxiaoxiao
      * @date: 2019/4/5 下午4:21
      */
-    public BaoZi baoBaoZi();
+     BaoZi baoBaoZi();
 }
